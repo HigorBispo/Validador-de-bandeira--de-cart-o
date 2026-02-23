@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace VB.Cartões
 {
-    public class Visa : Cartão
+    public class Voyage : Cartão
     {
+        public static string[] prefixosVoyage = { "8699" };
         public override string ValidarBandeira()
         {
-                return "O cartão é do tipo Visa.";
+            return "O cartão é do tipo Voyage.";
         }
     }
 }

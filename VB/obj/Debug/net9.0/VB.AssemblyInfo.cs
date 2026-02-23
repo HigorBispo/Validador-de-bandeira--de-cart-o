@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57bc4d15fcd13c2e063450358d30fd89a7abd9ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9a18db8dc2e307cf24f4ede7246960be1cece0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("VB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

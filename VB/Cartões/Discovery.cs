@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 
 namespace VB
 {
+
+
     public class Discovery : Cartão
     {
-        //Validação do cartão Discovery: O número do cartão deve começar com 6011, 622126-622925, 644-649 ou 65 e deve ter 16 dígitos.
+        public static string[] prefixosDiscovery = { "6011", "65" , "644", "645", "646", "647", "648", "649" };
         public override string ValidarBandeira()
         {
-            return "O cartão é do tipo Discovery.";
+           return "O cartão é do tipo Discovery.";
+
         }
 
     }

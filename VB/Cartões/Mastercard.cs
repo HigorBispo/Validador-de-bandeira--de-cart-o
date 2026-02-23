@@ -8,18 +8,14 @@ namespace VB
 {
     public class Mastercard : Cartão
     {
+        public static string[] PrefixosMastercard = new string[] { "51", "55", "2221", "2720" };
+    
         public override string ValidarBandeira()
         {
-            string numeroStr = Numero.ToString();
-            if (numeroStr.StartsWith("5") && (numeroStr.Length == 16))
-            {
                 return "O cartão é Mastercard.";
-            }
-            else
-            {
-                return "Bandeira do cartão desconhecida.";
-            }
         }
 
-    }
+    
+    
+}
 }
